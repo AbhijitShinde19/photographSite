@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photograph</title>
+    <!-- <link rel="stylesheet" href="/main.css"> -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+
+<body class="container-fluid">
+    <button class="btn btn-danger" data-bs-target="#login" data-bs-toggle="modal">login</button>
+    <div class="modal" id="login">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3><span class="bi bi-person">User Login</span></h3>
+                    <button class="btn btn-close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <dl>
+                        <dt>User Name</dt>
+                        <dd><input type="text" name="Uname" id="Uname" class="form-control"></dd>
+                        <dt>Password</dt>
+                        <dd><input type="password" id="pass" class="form-control"></dd>
+                    </dl>
+                </div>
+
+                <div class="modal-footer">
+                    <button class="btn btn-primary">login</button>
+                    <button class="btn btn-primary" data-bs-dismiss="modal">close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+</body>
+
+</html>
